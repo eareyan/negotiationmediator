@@ -1,0 +1,9 @@
+BEGIN TRANSACTION;
+CREATE TABLE IF NOT EXISTS `mediators` (
+	`id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+	`name`	TEXT NOT NULL
+);
+INSERT INTO `mediators` VALUES (1,'WelfareMax');
+INSERT INTO `mediators` VALUES (2,'BayesMediator');
+INSERT INTO `mediators` VALUES (3,'PolyMediator');
+COMMIT;

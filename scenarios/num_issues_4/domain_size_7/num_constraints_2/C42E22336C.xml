@@ -1,0 +1,32 @@
+<scenario id="S-1Q2652W-1">
+<domain>
+   <issue type="integer" name="1" lowerbound="0" upperbound="6"/>
+   <issue type="integer" name="2" lowerbound="0" upperbound="6"/>
+   <issue type="integer" name="3" lowerbound="0" upperbound="6"/>
+   <issue type="integer" name="4" lowerbound="0" upperbound="6"/>
+</domain>
+<profile id="A1" >
+   <ufun>
+      <CUBE height="61.0">
+          <bound issue="2" min="1" max="3" />
+          <bound issue="3" min="0" max="1" />
+          <bound issue="4" min="2" max="6" />
+      </CUBE>
+      <CUBE height="55.0">
+          <bound issue="1" min="3" max="4" />
+          <bound issue="2" min="2" max="6" />
+          <bound issue="4" min="0" max="2" />
+      </CUBE>
+   </ufun>
+</profile>
+<profile id="A2" >
+   <ufun>
+      <CUBE height="43.0">
+          <bound issue="2" min="3" max="4" />
+      </CUBE>
+      <CUBE height="30.0">
+          <bound issue="1" min="2" max="6" />
+      </CUBE>
+   </ufun>
+</profile>
+</scenario>

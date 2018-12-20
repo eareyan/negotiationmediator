@@ -1,0 +1,92 @@
+Welfare Max ILP time analysis:
+
+Ready to start solving scenario  31173FABBE
+Lower Bound is: 24632.0
+Upper Bound is: 49264.0
+Lower Bound is: 12316.0
+Upper Bound is: 24632.0
+Lower Bound is: 6158.0
+Upper Bound is: 12316.0
+Done!
+[4.0, 3.0, 4.0, 4.0, 4.0] 8376.0
+70.18774604797363
+
+
+
+Ready to start solving scenario  497C503489
+num_issues =  5
+domain_size =  5
+num_constraints =  500
+No Bounds
+Done!
+[2.0, 1.0, 1.0, 2.0, 2.0] 10078.0
+27.856916904449463
+
+
+9611BA3D36 2 9 8 [8.0, 6.0] 237.0
+Traceback (most recent call last):
+  File "/Users/enriqueareyan/Documents/workspace/negotiationmediator/ILP/test/welfare_max_nd_test.py", line 88, in <module>
+    raise Exception("!")
+Exception: !
+249.0 (3, 0)
+
+
+
+Problematic instances:
+
+Ready to start solving scenario  19CD0E1A6A
+num_issues =  3
+domain_size =  5
+num_constraints =  9
+
+Ready to start solving scenario  9611BA3D36
+num_issues =  2
+domain_size =  9
+num_constraints =  8
+
+[8.0, 6.0] 237.0
+[3.0, 0.0] 249.0
+
+
+
+X =  [[2.24781244 1.09009893]
+ [0.93521866 1.3955144 ]
+ [3.76686244 1.67505557]
+ [1.1981379  2.07981745]
+ [1.97439134 2.53131041]
+ [3.21310944 3.46524741]
+ [3.77683058 0.21167706]
+ [1.31110804 3.03856932]
+ [0.11544231 2.72954177]
+ [2.43500308 2.49191642]
+ [0.         1.49210771]
+ [0.         0.        ]
+ [3.36355639 1.04318624]
+ [3.72123824 4.        ]
+ [3.34779041 1.12760626]
+ [3.63950851 4.        ]
+ [0.         0.94218929]
+ [3.30875619 1.22331513]
+ [3.31887824 1.25695734]
+ [3.32380177 1.27481819]]
+y =  [31. 32. 31.  0.  0. 31. 31.  0. 32. 31. 32.  0. 31. 40. 31. 40.  0. 31.
+ 31. 31.]
+
+
+151
+
+142
+
+
+
+
+GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=1, nu=2.5),
+             n_restarts_optimizer=2, noise=1e-09, normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=None)
+
+
+GaussianProcessRegressor(alpha=1e-10, copy_X_train=True,
+             kernel=1**2 * Matern(length_scale=1, nu=2.5),
+             n_restarts_optimizer=2, noise=1e-09, normalize_y=True,
+             optimizer='fmin_l_bfgs_b', random_state=1494191344)

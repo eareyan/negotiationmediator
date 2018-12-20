@@ -1,0 +1,133 @@
+<scenario id="S-1Q35R4Q-1">
+<domain>
+   <issue type="integer" name="1" lowerbound="0" upperbound="9"/>
+</domain>
+<profile id="A1" >
+   <ufun>
+      <CUBE height="84.0">
+          <bound issue="1" min="9" max="9" />
+      </CUBE>
+      <CUBE height="91.0">
+          <bound issue="1" min="0" max="6" />
+      </CUBE>
+      <CUBE height="30.0">
+          <bound issue="1" min="6" max="9" />
+      </CUBE>
+      <CUBE height="83.0">
+          <bound issue="1" min="9" max="9" />
+      </CUBE>
+      <CUBE height="4.0">
+          <bound issue="1" min="0" max="7" />
+      </CUBE>
+      <CUBE height="85.0">
+          <bound issue="1" min="7" max="9" />
+      </CUBE>
+      <CUBE height="1.0">
+          <bound issue="1" min="0" max="3" />
+      </CUBE>
+      <CUBE height="86.0">
+          <bound issue="1" min="3" max="6" />
+      </CUBE>
+      <CUBE height="24.0">
+          <bound issue="1" min="8" max="9" />
+      </CUBE>
+      <CUBE height="75.0">
+          <bound issue="1" min="0" max="5" />
+      </CUBE>
+      <CUBE height="35.0">
+          <bound issue="1" min="2" max="5" />
+      </CUBE>
+      <CUBE height="13.0">
+          <bound issue="1" min="0" max="3" />
+      </CUBE>
+      <CUBE height="20.0">
+          <bound issue="1" min="4" max="6" />
+      </CUBE>
+      <CUBE height="77.0">
+          <bound issue="1" min="0" max="4" />
+      </CUBE>
+      <CUBE height="54.0">
+          <bound issue="1" min="0" max="9" />
+      </CUBE>
+      <CUBE height="9.0">
+          <bound issue="1" min="3" max="4" />
+      </CUBE>
+      <CUBE height="82.0">
+          <bound issue="1" min="6" max="9" />
+      </CUBE>
+      <CUBE height="85.0">
+          <bound issue="1" min="8" max="9" />
+      </CUBE>
+      <CUBE height="14.0">
+          <bound issue="1" min="5" max="9" />
+      </CUBE>
+      <CUBE height="79.0">
+          <bound issue="1" min="4" max="9" />
+      </CUBE>
+   </ufun>
+</profile>
+<profile id="A2" >
+   <ufun>
+      <CUBE height="9.0">
+          <bound issue="1" min="2" max="4" />
+      </CUBE>
+      <CUBE height="87.0">
+          <bound issue="1" min="1" max="4" />
+      </CUBE>
+      <CUBE height="57.0">
+          <bound issue="1" min="1" max="9" />
+      </CUBE>
+      <CUBE height="10.0">
+          <bound issue="1" min="2" max="8" />
+      </CUBE>
+      <CUBE height="81.0">
+          <bound issue="1" min="0" max="0" />
+      </CUBE>
+      <CUBE height="91.0">
+          <bound issue="1" min="9" max="9" />
+      </CUBE>
+      <CUBE height="29.0">
+          <bound issue="1" min="1" max="7" />
+      </CUBE>
+      <CUBE height="34.0">
+          <bound issue="1" min="0" max="4" />
+      </CUBE>
+      <CUBE height="53.0">
+          <bound issue="1" min="6" max="9" />
+      </CUBE>
+      <CUBE height="74.0">
+          <bound issue="1" min="9" max="9" />
+      </CUBE>
+      <CUBE height="64.0">
+          <bound issue="1" min="8" max="9" />
+      </CUBE>
+      <CUBE height="33.0">
+          <bound issue="1" min="1" max="4" />
+      </CUBE>
+      <CUBE height="97.0">
+          <bound issue="1" min="4" max="9" />
+      </CUBE>
+      <CUBE height="83.0">
+          <bound issue="1" min="9" max="9" />
+      </CUBE>
+      <CUBE height="71.0">
+          <bound issue="1" min="6" max="9" />
+      </CUBE>
+      <CUBE height="32.0">
+          <bound issue="1" min="0" max="6" />
+      </CUBE>
+      <CUBE height="89.0">
+          <bound issue="1" min="0" max="0" />
+      </CUBE>
+      <CUBE height="97.0">
+          <bound issue="1" min="2" max="8" />
+      </CUBE>
+      <CUBE height="76.0">
+          <bound issue="1" min="1" max="3" />
+      </CUBE>
+      <CUBE height="38.0">
+          <bound issue="1" min="2" max="4" />
+      </CUBE>
+   </ufun>
+</profile>
+</scenario>

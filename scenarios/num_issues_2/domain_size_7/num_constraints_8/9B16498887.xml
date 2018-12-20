@@ -1,0 +1,69 @@
+<scenario id="S-1Q264YZ-1">
+<domain>
+   <issue type="integer" name="1" lowerbound="0" upperbound="6"/>
+   <issue type="integer" name="2" lowerbound="0" upperbound="6"/>
+</domain>
+<profile id="A1" >
+   <ufun>
+      <CUBE height="70.0">
+          <bound issue="1" min="0" max="0" />
+      </CUBE>
+      <CUBE height="34.0">
+          <bound issue="1" min="0" max="0" />
+          <bound issue="2" min="5" max="6" />
+      </CUBE>
+      <CUBE height="49.0">
+          <bound issue="1" min="0" max="2" />
+          <bound issue="2" min="0" max="2" />
+      </CUBE>
+      <CUBE height="83.0">
+          <bound issue="1" min="0" max="0" />
+      </CUBE>
+      <CUBE height="53.0">
+          <bound issue="2" min="0" max="4" />
+      </CUBE>
+      <CUBE height="73.0">
+          <bound issue="2" min="6" max="6" />
+      </CUBE>
+      <CUBE height="49.0">
+          <bound issue="1" min="0" max="0" />
+          <bound issue="2" min="0" max="6" />
+      </CUBE>
+      <CUBE height="30.0">
+          <bound issue="2" min="1" max="4" />
+      </CUBE>
+   </ufun>
+</profile>
+<profile id="A2" >
+   <ufun>
+      <CUBE height="87.0">
+          <bound issue="1" min="4" max="6" />
+          <bound issue="2" min="0" max="0" />
+      </CUBE>
+      <CUBE height="62.0">
+          <bound issue="1" min="1" max="6" />
+          <bound issue="2" min="4" max="6" />
+      </CUBE>
+      <CUBE height="32.0">
+          <bound issue="1" min="1" max="6" />
+      </CUBE>
+      <CUBE height="6.0">
+          <bound issue="1" min="1" max="6" />
+          <bound issue="2" min="4" max="6" />
+      </CUBE>
+      <CUBE height="72.0">
+          <bound issue="2" min="3" max="6" />
+      </CUBE>
+      <CUBE height="60.0">
+          <bound issue="1" min="4" max="5" />
+          <bound issue="2" min="4" max="6" />
+      </CUBE>
+      <CUBE height="18.0">
+          <bound issue="2" min="3" max="6" />
+      </CUBE>
+      <CUBE height="93.0">
+          <bound issue="2" min="4" max="6" />
+      </CUBE>
+   </ufun>
+</profile>
+</scenario>

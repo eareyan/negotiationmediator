@@ -1,0 +1,73 @@
+<scenario id="S-1Q35ARB-1">
+<domain>
+   <issue type="integer" name="1" lowerbound="0" upperbound="9"/>
+</domain>
+<profile id="A1" >
+   <ufun>
+      <CUBE height="74.0">
+          <bound issue="1" min="8" max="9" />
+      </CUBE>
+      <CUBE height="30.0">
+          <bound issue="1" min="0" max="6" />
+      </CUBE>
+      <CUBE height="21.0">
+          <bound issue="1" min="7" max="9" />
+      </CUBE>
+      <CUBE height="1.0">
+          <bound issue="1" min="0" max="1" />
+      </CUBE>
+      <CUBE height="8.0">
+          <bound issue="1" min="0" max="7" />
+      </CUBE>
+      <CUBE height="1.0">
+          <bound issue="1" min="2" max="8" />
+      </CUBE>
+      <CUBE height="63.0">
+          <bound issue="1" min="8" max="9" />
+      </CUBE>
+      <CUBE height="95.0">
+          <bound issue="1" min="0" max="3" />
+      </CUBE>
+      <CUBE height="29.0">
+          <bound issue="1" min="1" max="5" />
+      </CUBE>
+      <CUBE height="1.0">
+          <bound issue="1" min="4" max="7" />
+      </CUBE>
+   </ufun>
+</profile>
+<profile id="A2" >
+   <ufun>
+      <CUBE height="21.0">
+          <bound issue="1" min="0" max="3" />
+      </CUBE>
+      <CUBE height="76.0">
+          <bound issue="1" min="9" max="9" />
+      </CUBE>
+      <CUBE height="48.0">
+          <bound issue="1" min="7" max="9" />
+      </CUBE>
+      <CUBE height="15.0">
+          <bound issue="1" min="4" max="9" />
+      </CUBE>
+      <CUBE height="71.0">
+          <bound issue="1" min="0" max="2" />
+      </CUBE>
+      <CUBE height="64.0">
+          <bound issue="1" min="1" max="2" />
+      </CUBE>
+      <CUBE height="91.0">
+          <bound issue="1" min="6" max="7" />
+      </CUBE>
+      <CUBE height="66.0">
+          <bound issue="1" min="0" max="0" />
+      </CUBE>
+      <CUBE height="60.0">
+          <bound issue="1" min="3" max="9" />
+      </CUBE>
+      <CUBE height="7.0">
+          <bound issue="1" min="0" max="1" />
+      </CUBE>
+   </ufun>
+</profile>
+</scenario>

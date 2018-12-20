@@ -1,0 +1,35 @@
+<scenario id="S-1Q2651F-1">
+<domain>
+   <issue type="integer" name="1" lowerbound="0" upperbound="8"/>
+   <issue type="integer" name="2" lowerbound="0" upperbound="8"/>
+   <issue type="integer" name="3" lowerbound="0" upperbound="8"/>
+</domain>
+<profile id="A1" >
+   <ufun>
+      <CUBE height="40.0">
+          <bound issue="3" min="0" max="4" />
+      </CUBE>
+      <CUBE height="61.0">
+          <bound issue="1" min="7" max="8" />
+      </CUBE>
+      <CUBE height="1.0">
+          <bound issue="3" min="0" max="0" />
+      </CUBE>
+   </ufun>
+</profile>
+<profile id="A2" >
+   <ufun>
+      <CUBE height="59.0">
+          <bound issue="3" min="3" max="8" />
+      </CUBE>
+      <CUBE height="99.0">
+          <bound issue="2" min="6" max="7" />
+      </CUBE>
+      <CUBE height="91.0">
+          <bound issue="1" min="5" max="8" />
+          <bound issue="2" min="2" max="8" />
+          <bound issue="3" min="0" max="0" />
+      </CUBE>
+   </ufun>
+</profile>
+</scenario>

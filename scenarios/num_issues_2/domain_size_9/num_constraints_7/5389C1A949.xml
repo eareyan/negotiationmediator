@@ -1,0 +1,61 @@
+<scenario id="S-1Q264ZH-1">
+<domain>
+   <issue type="integer" name="1" lowerbound="0" upperbound="8"/>
+   <issue type="integer" name="2" lowerbound="0" upperbound="8"/>
+</domain>
+<profile id="A1" >
+   <ufun>
+      <CUBE height="14.0">
+          <bound issue="1" min="0" max="4" />
+          <bound issue="2" min="7" max="8" />
+      </CUBE>
+      <CUBE height="35.0">
+          <bound issue="2" min="1" max="4" />
+      </CUBE>
+      <CUBE height="12.0">
+          <bound issue="2" min="4" max="8" />
+      </CUBE>
+      <CUBE height="84.0">
+          <bound issue="2" min="1" max="7" />
+      </CUBE>
+      <CUBE height="95.0">
+          <bound issue="1" min="2" max="3" />
+          <bound issue="2" min="8" max="8" />
+      </CUBE>
+      <CUBE height="22.0">
+          <bound issue="1" min="4" max="7" />
+          <bound issue="2" min="0" max="6" />
+      </CUBE>
+      <CUBE height="76.0">
+          <bound issue="1" min="8" max="8" />
+      </CUBE>
+   </ufun>
+</profile>
+<profile id="A2" >
+   <ufun>
+      <CUBE height="70.0">
+          <bound issue="2" min="0" max="8" />
+      </CUBE>
+      <CUBE height="32.0">
+          <bound issue="1" min="0" max="5" />
+      </CUBE>
+      <CUBE height="14.0">
+          <bound issue="2" min="5" max="8" />
+      </CUBE>
+      <CUBE height="81.0">
+          <bound issue="1" min="0" max="1" />
+          <bound issue="2" min="3" max="7" />
+      </CUBE>
+      <CUBE height="98.0">
+          <bound issue="2" min="0" max="0" />
+      </CUBE>
+      <CUBE height="56.0">
+          <bound issue="1" min="3" max="7" />
+          <bound issue="2" min="3" max="8" />
+      </CUBE>
+      <CUBE height="21.0">
+          <bound issue="2" min="0" max="0" />
+      </CUBE>
+   </ufun>
+</profile>
+</scenario>

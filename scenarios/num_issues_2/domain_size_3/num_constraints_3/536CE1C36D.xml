@@ -1,0 +1,37 @@
+<scenario id="S-1Q264XQ-1">
+<domain>
+   <issue type="integer" name="1" lowerbound="0" upperbound="2"/>
+   <issue type="integer" name="2" lowerbound="0" upperbound="2"/>
+</domain>
+<profile id="A1" >
+   <ufun>
+      <CUBE height="14.0">
+          <bound issue="1" min="1" max="2" />
+          <bound issue="2" min="1" max="2" />
+      </CUBE>
+      <CUBE height="73.0">
+          <bound issue="1" min="0" max="2" />
+          <bound issue="2" min="0" max="2" />
+      </CUBE>
+      <CUBE height="45.0">
+          <bound issue="1" min="0" max="1" />
+          <bound issue="2" min="1" max="2" />
+      </CUBE>
+   </ufun>
+</profile>
+<profile id="A2" >
+   <ufun>
+      <CUBE height="68.0">
+          <bound issue="1" min="2" max="2" />
+          <bound issue="2" min="0" max="0" />
+      </CUBE>
+      <CUBE height="92.0">
+          <bound issue="2" min="0" max="2" />
+      </CUBE>
+      <CUBE height="49.0">
+          <bound issue="1" min="0" max="2" />
+          <bound issue="2" min="0" max="2" />
+      </CUBE>
+   </ufun>
+</profile>
+</scenario>
