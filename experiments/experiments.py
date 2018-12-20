@@ -17,6 +17,7 @@ from skopt.learning.gaussian_process.kernels import Sum
 from skopt.learning.gaussian_process.kernels import Product
 from skopt.learning.gaussian_process.kernels import ConstantKernel
 
+import sys
 import warnings
 
 warnings.filterwarnings(action="ignore", module="scipy", message="^internal gelsd")
@@ -64,7 +65,10 @@ c = conn.cursor()
 # generate_bulk_scenarios(c)
 
 # Select the scenarios from the database.
-c.execute("SELECT * FROM scenarios")
+if len(sys.argv) > 1:
+    c.execute("SELECT * FROM scenarios WHERE num_issues = 5 AND domain_size = " + str(sys.argv[1]))
+else:
+    c.execute("SELECT * FROM scenarios WHERE num_issues = 5")
 r = c.fetchall()
 
 """
