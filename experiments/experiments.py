@@ -150,7 +150,7 @@ for s in r:
             maximizer, max_value = the_mediator.mediate(num_rounds)
             save_mediator_result(conn, c, db_scenario_id, mediator_db_id, maximizer, max_value)
             print("\t done!", end='\r', flush=True)
-        else:
-            print("We have results for this pair: ", s, " for ", mediators_id_to_name[mediator_db_id])
+        #else:
+        #    print("We have results for this pair: ", s, " for ", mediators_id_to_name[mediator_db_id])
 # Close the database
 conn.close()
